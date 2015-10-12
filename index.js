@@ -8,13 +8,13 @@ function create2dArray(array, n, ignore) {
     newArray.push(input.splice(0, n));
   }
 
-  if ( arguments.length > 2 ){ //ignore is set.
-    newArray.forEach( function(array, index) {
-      array = array.filter( function(x) {
-        return x !== ignore;
-      });
-      newArray[index] = array;
-    });
+  if (arguments.length > 2) { //ignore is set.
+    newArray.forEach(function (array, index) {
+      array = array.filter(function (x) {
+        return x !== ignore
+      })
+      newArray[index] = array
+    })
   }
 
   return newArray;
