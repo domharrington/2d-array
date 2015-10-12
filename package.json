@@ -1,7 +1,7 @@
 {
   "name": "2d-array",
   "description": "Transform a 1d array into a 2d array",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "dependencies": {},
   "scripts": {
     "lint": "./node_modules/.bin/jshint .",
